@@ -9,23 +9,56 @@
 <body>
     <div class="main">
         <div class="dashboard">
+            <div class="header-logo">
+                <img src="./assets/view-dashboard.svg" alt="dashboard">
                 <h1>Dashboard</h1>
+            </div>
             <div class="links">
-                <h2>Home</h2>
-                <h2>Profile</h2>
-                <h2>Messages</h2>
-                <h2>History</h2>
-                <h2>Tasks</h2>
-                <h2>Communities</h2>
-                <h2>Settings</h2>
-                <h2>Support</h2>
-                <h2>Privacy</h2>
+                <div class="home">
+                    <img src="./assets/home-account.svg" alt="home">
+                    <h2>Home</h2>
+                </div>
+                <div class="profile-pic">
+                    <img src="./assets/face-man-profile.svg" alt="">
+                    <h2>Profile</h2>
+                </div>
+                <div class="messages">
+                    <img src="./assets/message.svg" alt="">
+                    <h2>Messages</h2>
+                </div>
+                <div class="history">
+                    <img src="./assets/history.svg" alt="">
+                    <h2>History</h2>
+                </div>
+                <div class="tasks">
+                    <img src="./assets/calendar-check.svg" alt="">
+                    <h2>Tasks</h2>
+                </div>
+                <div class="communities">
+                    <img src="./assets/account-group-outline.svg" alt="">
+                    <h2>Communities</h2>
+                </div>
+                <div class="settings-link">
+                    <div class="settings">
+                        <img src="./assets/cog.svg" alt="">
+                        <h2>Settings</h2>
+                    </div>
+                    <div class="support">
+                        <img src="./assets/face-agent.svg" alt="">
+                        <h2>Support</h2>
+                    </div>
+                    <div class="privacy">
+                        <img src="./assets/shield-crown-outline.svg" alt="">
+                        <h2>Privacy</h2>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="header">
             <div class="top">
                 <div class="search">
-                    <input type="search" name="" id="">
+                    <img src="./assets/magnify.svg" alt="">
+                    <input type="search" name="" id="search-box">
                 </div>
                 <div class="toggle">
                     <button class="notification">
@@ -50,7 +83,7 @@
         </div>
         <div class="main-content">
             <div class="projects">
-                <h3>Your Projects</h3>
+                <h3 class="head">Your Projects</h3>
                 <article>
                     <h3>Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, exercitationem molestias soluta fugit explicabo neque aliquam nihil saepe labore magni quidem, culpa dolores voluptate cum odit modi repellendus nulla eligendi.</p>
@@ -103,39 +136,43 @@
                     </div>
                 </article>
             </div>
-            <div class="announcements">
-                <div class="site">
-                    <h4>Site Maintainance</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestiae in, ducimus minima nesciunt molestias inventore nobis quos veritatis voluptatibus unde! Qui rem voluptatum error, quas velit fugiat amet itaque.</p>
+            <div class="right">
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <div class="site">
+                        <h4>Site Maintainance</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestiae in, ducimus minima nesciunt molestias inventore nobis quos veritatis voluptatibus unde! Qui rem voluptatum error, quas velit fugiat amet itaque.</p>
+                    </div>
+                    <div class="share"><h4>Community Share Day</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestiae in, ducimus minima nesciunt molestias inventore nobis quos veritatis voluptatibus unde! Qui rem voluptatum error, quas velit fugiat amet itaque.</p>
+                    </div>
+                    <div class="policy">
+                        <h4>Updated Privacy Policy</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestiae in, ducimus minima nesciunt molestias inventore nobis quos veritatis voluptatibus unde! Qui rem voluptatum error, quas velit fugiat amet itaque.</p>
+                    </div>
                 </div>
-                <div class="share"><h4>Community Share Day</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestiae in, ducimus minima nesciunt molestias inventore nobis quos veritatis voluptatibus unde! Qui rem voluptatum error, quas velit fugiat amet itaque.</p>
-                </div>
-                <div class="policy">
-                    <h4>Updated Privacy Policy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, molestiae in, ducimus minima nesciunt molestias inventore nobis quos veritatis voluptatibus unde! Qui rem voluptatum error, quas velit fugiat amet itaque.</p>
-                </div>
-            </div>
-            <div class="trending">
-                <div class="tegan">
-                    <img src="" alt="tegan">
-                    <p>@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-                <div class="morgan">
-                    <img src="" alt="tegan">
-                    <p>@utsav</p>
-                    <p>Super Cool Project</p>
-                </div>
-                <div class="kendal">
-                    <img src="" alt="tegan">
-                    <p>@kendal</p>
-                    <p>Life Changing App</p>
-                </div>
-                <div class="alex">
-                    <img src="" alt="tegan">
-                    <p>@alex</p>
-                    <p>No Traffic Maker</p>
+                <div class="trending">
+                    <h3>Trending</h3>
+                    <div class="tegan">
+                        <img src="" alt="tegan">
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="morgan">
+                        <img src="" alt="tegan">
+                        <p>@utsav</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                    <div class="kendal">
+                        <img src="" alt="tegan">
+                        <p>@kendal</p>
+                        <p>Life Changing App</p>
+                    </div>
+                    <div class="alex">
+                        <img src="" alt="tegan">
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
                 </div>
             </div>
         </div>
